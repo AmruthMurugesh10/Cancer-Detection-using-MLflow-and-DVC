@@ -1,1 +1,20 @@
 activate environment: .venv/Scripts/activate
+after installing the  requirements move to logging and exception
+
+logging:
+i) Ascii time
+ii) log level
+iii) module which one
+iv) message
+
+file handler creats the log folder and stores all the logs
+streamhandler to print the logs in terminal
+
+if you want to call any folder you can mention it in the (_init.py_) constructor folder
+
+custom logging ^
+
+utils - The functionalities you'll be using frequently in your code
+
+configbox is to directly call the value using a key
+ensure_annotation - to make sure if all the foemats are same if the format is changed it throws an error
